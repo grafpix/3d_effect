@@ -1,0 +1,30 @@
+name: bryant
+description: A new Flutter project.
+author: Ahmed Mustafa<ahmed.dev2020@gmail.com>
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  grafpix: ^1.2.2
+  sensors: ^0.4.1+7
+  provider: ^3.1.0+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+   - assets/images/
+
+  fonts:
+    - family: Bangers
+      fonts:
+        - asset: assets/fonts/Bangers.ttf
+          weight: 600
